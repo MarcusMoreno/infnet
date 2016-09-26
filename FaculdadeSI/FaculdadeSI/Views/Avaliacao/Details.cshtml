@@ -1,0 +1,66 @@
+﻿@model FaculdadeSI.Models.Avaliacao
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Avaliacao</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DescricaoAvaliacao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DescricaoAvaliacao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Expiracao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Expiracao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Titulo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AvaliacaoStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AvaliacaoStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Perfil.DescricaoPerfil)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Perfil.DescricaoPerfil)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Usuario.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Usuario.Nome)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdAvaliacao }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

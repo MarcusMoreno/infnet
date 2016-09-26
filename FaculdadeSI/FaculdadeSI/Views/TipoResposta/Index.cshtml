@@ -1,0 +1,41 @@
+﻿@model IEnumerable<FaculdadeSI.Models.TipoResposta>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Tipo de Respostas</h2>
+
+<p>
+    @Html.ActionLink("Criar resposta", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.Label("Tipo de resposta")
+            @*@Html.DisplayNameFor(model => model.DescricaoTipoResposta)*@
+        </th>
+        <th>
+            @Html.Label("Status")
+            @*@Html.DisplayNameFor(model => model.TipoRespostaStatus)*@
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DescricaoTipoResposta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipoRespostaStatus)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdTipoResposta }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdTipoResposta }) @*|
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdTipoResposta })*@
+        </td>
+    </tr>
+}
+
+</table>
