@@ -4,7 +4,7 @@
     ViewBag.Title = "Edit";
 }
 
-<h2>Edit</h2>
+<h2>Editar pergunta</h2>
 
 
 <script src="~/Scripts/jquery-1.10.2.min.js"></script>
@@ -16,7 +16,7 @@
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        <h4>Pergunta</h4>
+        @*<h4>Pergunta</h4>*@
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         @Html.HiddenFor(model => model.IdPergunta)
@@ -27,9 +27,7 @@
                 @Html.EditorFor(model => model.DescricaoPergunta, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.DescricaoPergunta, "", new { @class = "text-danger" })
             </div>
-        </div>>
-
-        
+        </div>        
         <div class="form-group">
             @Html.LabelFor(model => model.TipoRespostas, "Resposta", htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
@@ -41,10 +39,8 @@
         <div class="form-group">
             @Html.LabelFor(model => model.PerguntaStatus, "Status", htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                <div class="checkbox">
-                    @Html.EditorFor(model => model.PerguntaStatus)
+                    @Html.EditorFor(model => model.PerguntaStatus, new { htmlAttributes = new { @class = "form-control" } })
                     @Html.ValidationMessageFor(model => model.PerguntaStatus, "", new { @class = "text-danger" })
-                </div>
             </div>
         </div>
 
