@@ -21,6 +21,10 @@ namespace FaculdadeSI.Controllers
             return View(usuarios.ToList());
         }
 
+
+
+
+
         // GET: Usuario/Details/5
         public ActionResult Details(int? id)
         {
@@ -34,6 +38,9 @@ namespace FaculdadeSI.Controllers
                 return HttpNotFound();
             }
             return View(usuario);
+        
+        
+        
         }
 
         // GET: Usuario/Create
@@ -42,6 +49,9 @@ namespace FaculdadeSI.Controllers
             ViewBag.IdPerfil = new SelectList(db.Perfils, "IdPerfil", "DescricaoPerfil");
             return View();
         }
+
+
+
 
         // POST: Usuario/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
@@ -60,6 +70,10 @@ namespace FaculdadeSI.Controllers
             ViewBag.IdPerfil = new SelectList(db.Perfils, "IdPerfil", "DescricaoPerfil", usuario.IdPerfil);
             return View(usuario);
         }
+
+
+
+
 
         // GET: Usuario/Edit/5
         public ActionResult Edit(int? id)
