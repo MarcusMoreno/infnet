@@ -36,7 +36,7 @@ namespace FaculdadeSI.Models
 
         //public List<int> IdTipoResposta { get; set; }
 
-        public String TipoResposta { get; set; }
+        public List<TipoResposta> TipoRespostas { get; set; }
 
 
     }

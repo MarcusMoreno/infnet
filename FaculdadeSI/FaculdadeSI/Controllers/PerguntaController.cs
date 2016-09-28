@@ -29,7 +29,17 @@ namespace FaculdadeSI.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+
             Pergunta pergunta = db.Perguntas.Find(id);
+
+            //Lista de TipoResposta que pertencem a pergunta
+            var listTipoRespostaJoin = db.PerguntaTipoRespostas
+                   .Join(db.TipoRespostas, j => j.IdtipoResposta, k => k.IdTipoResposta, (j, k) => new { j, k }).Where(x => x.j.IdPergunta == id)
+                   .Join(db.Perguntas, a => a.j.IdPergunta, b => b.IdPergunta, (a, b) => new { a, b }).Select(s => new SelectListItem { Value = s.a.j.IdtipoResposta.ToString(), Text = s.a.k.DescricaoTipoResposta });
+
+            //Todas os tipo de resposta
+            ViewBag.TipoResposta = listTipoRespostaJoin.ToList();
+            
             if (pergunta == null)
             {
                 return HttpNotFound();
@@ -55,26 +65,23 @@ namespace FaculdadeSI.Controllers
                 //pergunta.TipoResposta.Add(ViewBag.TipoResposta);
                 db.Perguntas.Add(pergunta);
 
-                //Cria uma string com os valores passados no dropdown
-                string u = form["TipoResposta"].ToString();
+                //Cria uma lista do que foi passado no dorpdown
+                var listaTipoRespostaRequest = form["TipoResposta"].Split(',').ToList();
 
-                //Quebra a string pegando os valores separados por ,
-                var l = u.Split(',');
+                //Lista dos Tipo de resposta que existem no banco
+                var listaTipoRespostaBd = db.TipoRespostas.ToList();
 
-                foreach (var item in l)
+                foreach (var item in listaTipoRespostaRequest)
                 {
-                    //Busca no banco os dados daquele tipo de resposta
-                    var i = db.TipoRespostas.Select(f => f.DescricaoTipoResposta == item);
+                    var descTipoResposta = listaTipoRespostaBd.FirstOrDefault(f => f.DescricaoTipoResposta == item);
 
-                    // Cria um objeto perguntaTipoResposta para ser adicionado no banco
-                    PerguntaTipoResposta g =  new PerguntaTipoResposta();
-                    g.IdPergunta = pergunta.IdPergunta;
-                    g.IdtipoResposta = 9 ;
+                    PerguntaTipoResposta perguntaTipoResposta = new PerguntaTipoResposta();
+                    perguntaTipoResposta.IdPergunta = pergunta.IdPergunta;
+                    perguntaTipoResposta.IdtipoResposta = descTipoResposta.IdTipoResposta;
 
                     //Adiciona no banco
-                    db.PerguntaTipoRespostas.Add(g);
-                }
-                
+                    db.PerguntaTipoRespostas.Add(perguntaTipoResposta);
+                }                
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -101,11 +108,31 @@ namespace FaculdadeSI.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Pergunta pergunta = db.Perguntas.Find(id);
+
+            //Cria lista de perguntaTipoResposta que tem o mesmo id enviado
+            var listaPerguntaTipoRespostasDb = db.PerguntaTipoRespostas.ToList().FindAll(f => f.IdPergunta == id);
+
+            //Lista de TipoResposta que pertencem a pergunta
+            var listaTipoRespostaJoin = db.PerguntaTipoRespostas
+                 .Join(db.TipoRespostas, j => j.IdtipoResposta, k => k.IdTipoResposta, (j, k) => new { j, k }).Where(x => x.j.IdPergunta == id)
+                 .Join(db.Perguntas, a => a.j.IdPergunta, b => b.IdPergunta, (a, b) => new { a, b }).Select(s => new SelectListItem { Value = s.a.j.IdtipoResposta.ToString(), Text = s.a.k.DescricaoTipoResposta });
+
+            //Lista dos Tipo de resposta que existem no banco
+            var doisjoin2 = db.TipoRespostas.Select(s => new SelectListItem { Value = s.IdTipoResposta.ToString(), Text = s.DescricaoTipoResposta });
+
+            //ViewBag.TipoResposta = new SelectList(db.TipoRespostas.ToList().Select(g => g.DescricaoTipoResposta));
+            ViewBag.TipoRespostaFiltrado = listaTipoRespostaJoin.ToList();
+            ViewBag.TipoResposta= doisjoin2.ToList(); 
+
+            Pergunta pergunta = new Pergunta();
+            pergunta.DescricaoPergunta = db.Perguntas.FirstOrDefault(f => f.IdPergunta == id).DescricaoPergunta;
+            pergunta.PerguntaStatus = true;
+
             if (pergunta == null)
             {
                 return HttpNotFound();
             }
+
             return View(pergunta);
         }
 
@@ -123,31 +150,31 @@ namespace FaculdadeSI.Controllers
             return View(pergunta);
         }
 
-        // GET: Pergunta/Delete/5
-        public ActionResult Delete(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Pergunta pergunta = db.Perguntas.Find(id);
-            if (pergunta == null)
-            {
-                return HttpNotFound();
-            }
-            return View(pergunta);
-        }
+        //// GET: Pergunta/Delete/5
+        //public ActionResult Delete(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+        //    }
+        //    Pergunta pergunta = db.Perguntas.Find(id);
+        //    if (pergunta == null)
+        //    {
+        //        return HttpNotFound();
+        //    }
+        //    return View(pergunta);
+        //}
 
-        // POST: Pergunta/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
-        {
-            Pergunta pergunta = db.Perguntas.Find(id);
-            db.Perguntas.Remove(pergunta);
-            db.SaveChanges();
-            return RedirectToAction("Index");
-        }
+        //// POST: Pergunta/Delete/5
+        //[HttpPost, ActionName("Delete")]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult DeleteConfirmed(int id)
+        //{
+        //    Pergunta pergunta = db.Perguntas.Find(id);
+        //    db.Perguntas.Remove(pergunta);
+        //    db.SaveChanges();
+        //    return RedirectToAction("Index");
+        //}
 
         protected override void Dispose(bool disposing)
         {
