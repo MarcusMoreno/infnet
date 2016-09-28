@@ -310,7 +310,6 @@
     <Content Include="Views\Pergunta\Edit.cshtml" />
     <Content Include="Views\Pergunta\Index.cshtml" />
     <Content Include="Views\Avaliacao\Create.cshtml" />
-    <Content Include="Views\Avaliacao\Delete.cshtml" />
     <Content Include="Views\Avaliacao\Details.cshtml" />
     <Content Include="Views\Avaliacao\Edit.cshtml" />
     <Content Include="Views\Avaliacao\Index.cshtml" />

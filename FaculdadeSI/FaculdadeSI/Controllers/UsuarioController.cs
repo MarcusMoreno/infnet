@@ -46,7 +46,8 @@ namespace FaculdadeSI.Controllers
         // GET: Usuario/Create
         public ActionResult Create()
         {
-            ViewBag.IdPerfil = new SelectList(db.Perfils, "IdPerfil", "DescricaoPerfil");
+            ViewBag.IdPerfil = new SelectList(db.Perfils.ToList().Where(x => x.PerfilStatus == true).Select(y => y.DescricaoPerfil));
+
             return View();
         }
 
@@ -67,7 +68,8 @@ namespace FaculdadeSI.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.IdPerfil = new SelectList(db.Perfils, "IdPerfil", "DescricaoPerfil", usuario.IdPerfil);
+            ViewBag.IdPerfil = new SelectList(db.Perfils.ToList().Where(x => x.PerfilStatus == true).Select(y => y.DescricaoPerfil));
+
             return View(usuario);
         }
 
@@ -87,7 +89,9 @@ namespace FaculdadeSI.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.IdPerfil = new SelectList(db.Perfils, "IdPerfil", "DescricaoPerfil", usuario.IdPerfil);
+
+            ViewBag.IdPerfil = new SelectList(db.Perfils.ToList().Where(x => x.PerfilStatus == true).Select(y => y.DescricaoPerfil));
+
             return View(usuario);
         }
 
@@ -104,7 +108,9 @@ namespace FaculdadeSI.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.IdPerfil = new SelectList(db.Perfils, "IdPerfil", "DescricaoPerfil", usuario.IdPerfil);
+
+            ViewBag.IdPerfil = new SelectList(db.Perfils.ToList().Where(x => x.PerfilStatus == true).Select(y => y.DescricaoPerfil));
+
             return View(usuario);
         }
 

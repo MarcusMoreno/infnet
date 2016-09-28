@@ -50,8 +50,8 @@ namespace FaculdadeSI.Controllers
         // GET: Pergunta/Create
         public ActionResult Create()
         {
-            ViewBag.TipoResposta = new SelectList(db.TipoRespostas.ToList().Select(g => g.DescricaoTipoResposta));
-            
+            ViewBag.TipoResposta = new SelectList(db.TipoRespostas.ToList().Where(x => x.TipoRespostaStatus == true).Select(g => g.DescricaoTipoResposta));
+                    
             return View();
         }
 
@@ -71,8 +71,10 @@ namespace FaculdadeSI.Controllers
                 //Lista dos Tipo de resposta que existem no banco
                 var listaTipoRespostaBd = db.TipoRespostas.ToList();
 
+                //Para cada tipo de resposta enviada na pergunta, inseri na tabela perguntaTipoResposta
                 foreach (var item in listaTipoRespostaRequest)
                 {
+                    //PEga objeto no db.TipoResposta que seja igual a item
                     var descTipoResposta = listaTipoRespostaBd.FirstOrDefault(f => f.DescricaoTipoResposta == item);
 
                     PerguntaTipoResposta perguntaTipoResposta = new PerguntaTipoResposta();
@@ -117,12 +119,14 @@ namespace FaculdadeSI.Controllers
                  .Join(db.TipoRespostas, j => j.IdtipoResposta, k => k.IdTipoResposta, (j, k) => new { j, k }).Where(x => x.j.IdPergunta == id)
                  .Join(db.Perguntas, a => a.j.IdPergunta, b => b.IdPergunta, (a, b) => new { a, b }).Select(s => new SelectListItem { Value = s.a.j.IdtipoResposta.ToString(), Text = s.a.k.DescricaoTipoResposta });
 
+            ViewBag.TipoResposta = new SelectList(db.TipoRespostas.ToList().Where(x => x.TipoRespostaStatus == true).Select(g => g.DescricaoTipoResposta));
+
             //Lista dos Tipo de resposta que existem no banco
-            var doisjoin2 = db.TipoRespostas.Select(s => new SelectListItem { Value = s.IdTipoResposta.ToString(), Text = s.DescricaoTipoResposta });
+            //var doisjoin2 = db.TipoRespostas.Select(s => new SelectListItem { Value = s.IdTipoResposta.ToString(), Text = s.DescricaoTipoResposta });
 
             //ViewBag.TipoResposta = new SelectList(db.TipoRespostas.ToList().Select(g => g.DescricaoTipoResposta));
-            ViewBag.TipoRespostaFiltrado = listaTipoRespostaJoin.ToList();
-            ViewBag.TipoResposta= doisjoin2.ToList(); 
+            //ViewBag.TipoRespostaFiltrado = listaTipoRespostaJoin.ToList();
+            //ViewBag.TipoResposta= doisjoin2.ToList(); 
 
             Pergunta pergunta = new Pergunta();
             pergunta.DescricaoPergunta = db.Perguntas.FirstOrDefault(f => f.IdPergunta == id).DescricaoPergunta;
@@ -139,12 +143,41 @@ namespace FaculdadeSI.Controllers
         // POST: Pergunta/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "IdPergunta,DescricaoPergunta,PerguntaStatus")] Pergunta pergunta)
+        public ActionResult Edit([Bind(Include = "IdPergunta,DescricaoPergunta,PerguntaStatus")] Pergunta pergunta, FormCollection form, int? id)
         {
             if (ModelState.IsValid)
             {
                 db.Entry(pergunta).State = EntityState.Modified;
+
+                //Lista dos Tipo de resposta que existem no banco
+                var listaTipoRespostaBd = db.TipoRespostas.ToList();
+
+                //Cria uma lista do que foi passado no dorpdown
+                var listaTipoRespostaRequest = form["TipoResposta"].Split(',').ToList();
+
+                //Cria lista de descricaoTipoResposta que aquela pergunta possui cadastrada
+                List<String> listaTipoRespostaAtPergunta = db.PerguntaTipoRespostas
+                 .Join(db.TipoRespostas, j => j.IdtipoResposta, k => k.IdTipoResposta, (j, k) => new { j, k }).Where(x => x.j.IdPergunta == id)
+                 .Join(db.Perguntas, a => a.j.IdPergunta, b => b.IdPergunta, (a, b) => new { a, b }).Select(hj => hj.a.k.DescricaoTipoResposta).ToList();
+
+                foreach(var item in listaTipoRespostaRequest) 
+                {
+                    if (!listaTipoRespostaAtPergunta.Contains(item)) //Verifica se ja existe aquele tipoResposta naquela perguntaTipoResposta
+                    {
+                        //PEga objeto no db.TipoResposta que seja igual a item
+                        var descTipoResposta = listaTipoRespostaBd.FirstOrDefault(f => f.DescricaoTipoResposta == item);
+
+                        PerguntaTipoResposta perguntaTipoResposta = new PerguntaTipoResposta();
+                        perguntaTipoResposta.IdPergunta = pergunta.IdPergunta;
+                        perguntaTipoResposta.IdtipoResposta = descTipoResposta.IdTipoResposta;
+
+                        db.PerguntaTipoRespostas.Add(perguntaTipoResposta);
+
+                    }
+                 
+                }
                 db.SaveChanges();
+                
                 return RedirectToAction("Index");
             }
             return View(pergunta);

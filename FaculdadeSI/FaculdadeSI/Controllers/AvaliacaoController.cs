@@ -39,14 +39,14 @@ namespace FaculdadeSI.Controllers
         // GET: Avaliacao/Create
         public ActionResult Create()
         {
-            ViewBag.IdPerfil = new SelectList(db.Perfils, "IdPerfil", "DescricaoPerfil");
-            ViewBag.IdUsuario = new SelectList(db.Usuarios, "IdUsuario", "Nome");
+            ViewBag.Perguntas = new SelectList(db.Perguntas.ToList().Where(f => f.PerguntaStatus == true).Select(g => g.DescricaoPergunta));
+            ViewBag.IdPerfil = new SelectList(db.Perfils.ToList().Where(f => f.PerfilStatus == true).Select(g => g.DescricaoPerfil));
+            ViewBag.IdUsuario = new SelectList(db.Usuarios.ToList().Where(f => f.UsuarioStatus == true).Select(g => g.Nome));
+               
             return View();
         }
 
         // POST: Avaliacao/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "IdAvaliacao,DescricaoAvaliacao,Expiracao,Titulo,IdUsuario,IdPerfil,AvaliacaoStatus")] Avaliacao avaliacao)
@@ -58,10 +58,13 @@ namespace FaculdadeSI.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.IdPerfil = new SelectList(db.Perfils, "IdPerfil", "DescricaoPerfil", avaliacao.IdPerfil);
-            ViewBag.IdUsuario = new SelectList(db.Usuarios, "IdUsuario", "Nome", avaliacao.IdUsuario);
+            ViewBag.Perguntas = new SelectList(db.Perguntas.ToList().Where(f => f.PerguntaStatus == true).Select(g => g.DescricaoPergunta));
+            ViewBag.IdPerfil = new SelectList(db.Perfils.ToList().Where(f => f.PerfilStatus == true).Select(g => g.DescricaoPerfil));
+            ViewBag.IdUsuario = new SelectList(db.Usuarios.ToList().Where(f => f.UsuarioStatus == true).Select(g => g.Nome));
+
             return View(avaliacao);
         }
+
 
         // GET: Avaliacao/Edit/5
         public ActionResult Edit(int? id)
@@ -70,19 +73,29 @@ namespace FaculdadeSI.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+
+            //Cria lista de AvaliacaoPerguntas que tem o mesmo id enviado
+            var listaAvaliacaoPerguntasDb = db.AvaliacaoPerguntas.ToList().FindAll(f => f.IdAvaliacao == id);
+
+            //Lista de perguntas que pertencem a avaliacao
+            //var listaPerguntasJoin = db.AvaliacaoPerguntas
+            //    .Join(db.Perguntas, x => x.IdPergunta, y => y.IdPergunta, (x, y) => new { x, y }).Where(z => z.x.IdAvaliacao == id)
+            //    .Join(db.Avaliacaos, w => w.x.IdAvaliacao, z => z.IdAvaliacao, (w, z) => new { w, z }).Select(s => new SelectListItem { Value = s.w.x.IdPergunta.ToString(), Text = s.w.y.DescricaoPergunta});
+
             Avaliacao avaliacao = db.Avaliacaos.Find(id);
             if (avaliacao == null)
             {
                 return HttpNotFound();
             }
-            ViewBag.IdPerfil = new SelectList(db.Perfils, "IdPerfil", "DescricaoPerfil", avaliacao.IdPerfil);
-            ViewBag.IdUsuario = new SelectList(db.Usuarios, "IdUsuario", "Nome", avaliacao.IdUsuario);
+        
+            ViewBag.Perguntas = new SelectList(db.Perguntas.ToList().Where(f => f.PerguntaStatus == true).Select(g => g.DescricaoPergunta));
+            ViewBag.IdPerfil = new SelectList(db.Perfils.ToList().Where(f => f.PerfilStatus == true).Select(g => g.DescricaoPerfil));
+            ViewBag.IdUsuario = new SelectList(db.Usuarios.ToList().Where(f => f.UsuarioStatus == true).Select(g => g.Nome));
+
             return View(avaliacao);
         }
 
         // POST: Avaliacao/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "IdAvaliacao,DescricaoAvaliacao,Expiracao,Titulo,IdUsuario,IdPerfil,AvaliacaoStatus")] Avaliacao avaliacao)
@@ -93,35 +106,11 @@ namespace FaculdadeSI.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.IdPerfil = new SelectList(db.Perfils, "IdPerfil", "DescricaoPerfil", avaliacao.IdPerfil);
-            ViewBag.IdUsuario = new SelectList(db.Usuarios, "IdUsuario", "Nome", avaliacao.IdUsuario);
-            return View(avaliacao);
-        }
 
-        // GET: Avaliacao/Delete/5
-        public ActionResult Delete(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Avaliacao avaliacao = db.Avaliacaos.Find(id);
-            if (avaliacao == null)
-            {
-                return HttpNotFound();
-            }
+            ViewBag.IdPerfil = new SelectList(db.Perfils.ToList().Where(f => f.PerfilStatus == true).Select(g => g.DescricaoPerfil));
+            ViewBag.IdUsuario = new SelectList(db.Usuarios.ToList().Where(f => f.UsuarioStatus == true).Select(g => g.Nome));
+            
             return View(avaliacao);
-        }
-
-        // POST: Avaliacao/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
-        {
-            Avaliacao avaliacao = db.Avaliacaos.Find(id);
-            db.Avaliacaos.Remove(avaliacao);
-            db.SaveChanges();
-            return RedirectToAction("Index");
         }
 
         protected override void Dispose(bool disposing)

@@ -4,14 +4,14 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>Detalhes avaliação</h2>
 
 <div>
-    <h4>Avaliacao</h4>
+    @*<h4>Avaliacao</h4>*@
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.DescricaoAvaliacao)
+            @Html.LabelFor(model => model.DescricaoAvaliacao, "Descrição")
         </dt>
 
         <dd>
@@ -19,7 +19,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Expiracao)
+            @Html.LabelFor(model => model.Expiracao,"Expira em")
         </dt>
 
         <dd>
@@ -27,7 +27,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Titulo)
+            @Html.LabelFor(model => model.Titulo, "Título")
         </dt>
 
         <dd>
@@ -35,7 +35,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.AvaliacaoStatus)
+            @Html.LabelFor(model => model.AvaliacaoStatus,"Status")
         </dt>
 
         <dd>
@@ -43,7 +43,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Perfil.DescricaoPerfil)
+            @Html.LabelFor(model => model.Perfil.DescricaoPerfil, "Perfil")
         </dt>
 
         <dd>
@@ -51,7 +51,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Usuario.Nome)
+            @Html.LabelFor(model => model.Usuario.Nome, "Criador")
         </dt>
 
         <dd>
