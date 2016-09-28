@@ -105,6 +105,6 @@ C:\Users\Marcus\Documents\GitHub\infnet\FaculdadeSI\FaculdadeSI\bin\Microsoft.Ow
 C:\Users\Marcus\Documents\GitHub\infnet\FaculdadeSI\FaculdadeSI\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Marcus\Documents\GitHub\infnet\FaculdadeSI\FaculdadeSI\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Marcus\Documents\GitHub\infnet\FaculdadeSI\FaculdadeSI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Marcus\Documents\GitHub\infnet\FaculdadeSI\FaculdadeSI\obj\Debug\FaculdadeSI.csprojResolveAssemblyReference.cache
 C:\Users\Marcus\Documents\GitHub\infnet\FaculdadeSI\FaculdadeSI\obj\Debug\FaculdadeSI.dll
 C:\Users\Marcus\Documents\GitHub\infnet\FaculdadeSI\FaculdadeSI\obj\Debug\FaculdadeSI.pdb
-C:\Users\Marcus\Documents\GitHub\infnet\FaculdadeSI\FaculdadeSI\obj\Debug\FaculdadeSI.csprojResolveAssemblyReference.cache
