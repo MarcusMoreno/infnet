@@ -44,7 +44,7 @@ namespace FaculdadeSI.Controllers
         }
 
         // GET: Usuario/Create
-        public ActionResult CreateUsuario()
+        public ActionResult Create()
         {
             ViewBag.IdPerfil = new SelectList(db.Perfils, "IdPerfil", "DescricaoPerfil");
             return View();

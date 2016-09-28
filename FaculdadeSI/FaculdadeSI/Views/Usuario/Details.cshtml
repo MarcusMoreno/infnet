@@ -1,13 +1,13 @@
 ﻿@model FaculdadeSI.Models.Usuario
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Detalhes do usuário";
 }
 
-<h2>Details</h2>
+<h2>Detalhes do usuário</h2>
 
 <div>
-    <h4>Usuario</h4>
+    @*<h4>Usuario</h4>*@
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -35,7 +35,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.UsuarioStatus)
+            @Html.LabelFor(model => model.UsuarioStatus, "Status")
         </dt>
 
         <dd>
@@ -51,7 +51,7 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Perfil.DescricaoPerfil)
+            @Html.LabelFor(model => model.Perfil.DescricaoPerfil,"Perfil")
         </dt>
 
         <dd>
@@ -61,6 +61,6 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.IdUsuario }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Editar", "Edit", new { id = Model.IdUsuario }) |
+    @Html.ActionLink("Voltar", "Index")
 </p>
