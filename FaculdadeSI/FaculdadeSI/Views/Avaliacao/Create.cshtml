@@ -68,7 +68,6 @@
                     @Html.ValidationMessageFor(model => model.AvaliacaoStatus, "", new { @class = "text-danger" })
             </div>
         </div>
-
         <div class="form-group">
             @Html.LabelFor(model => model.Perguntas, "Perguntas", htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
@@ -79,14 +78,14 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Criar" class="btn btn-primary" />
+                <button class="btn btn-primary" type="submit" value="Save">  Criar  </button>
             </div>
         </div>
     </div>
 }
 
 <div>
-    @Html.ActionLink("Voltar", "Index")
+    <button class="btn" style="width:90px">@Html.ActionLink("Voltar", "Index")</button>
 </div>
 
 <script type="text/javascript">
