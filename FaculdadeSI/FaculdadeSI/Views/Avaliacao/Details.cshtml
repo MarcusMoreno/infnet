@@ -60,7 +60,16 @@
 
     </dl>
 </div>
-<p>
+@*<p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.IdAvaliacao }) |
     @Html.ActionLink("Voltar", "Index")
-</p>
+</p>*@
+
+<div>
+    <p>
+        <button class="btn" style="width:90px">@Html.ActionLink("Voltar", "Index")</button> 
+        <button class="btn btn-warning pull-right" style="width:90px">@Html.ActionLink("Editar", "Edit", new { id = Model.IdAvaliacao })</button>
+        
+    </p>
+</div>
+

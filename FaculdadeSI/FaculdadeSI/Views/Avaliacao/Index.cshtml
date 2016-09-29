@@ -7,7 +7,8 @@
 <h2>Avaliações</h2>
 
 <p>
-    @Html.ActionLink("Criar avaliação", "Create")
+    <div> <a class="btn btn-success pull-right" ui-sref="affiliate({ id: 'new' })" href="~/Avaliacao/Create"><i class="glyphicon glyphicon-plus"></i> <span>Nova avaliação</span></a>  </div>
+    
 </p>
 <table class="table">
     <tr>
@@ -59,11 +60,15 @@
             @Html.DisplayFor(modelItem => item.Usuario.Nome)
         </td>
         <td>
-           
-            @Html.ActionLink("Edit", "Edit", new { id=item.IdAvaliacao}) |
-            @Html.ActionLink("Details", "Details", new { id=item.IdAvaliacao }) @*|
-            @Html.ActionLink("Delete", "Delete", new { id=item.IdAvaliacao })*@
+
+            <div>
+                <button class="btn btn-warning pull-right" style="width:90px">@Html.ActionLink("Editar", "Edit", new { id = item.IdAvaliacao })</button>
+                <button class="btn btn-info pull-right" style="width:90px">@Html.ActionLink("Detalhes", "Details", new { id = item.IdAvaliacao })</button>
+            </div>
+                     
         </td>
+
+        
     </tr>
 }
 

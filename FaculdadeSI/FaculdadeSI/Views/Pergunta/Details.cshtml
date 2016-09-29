@@ -45,10 +45,13 @@
     </div>
 }
 
-<p>
-    @Html.ActionLink("Editar", "Edit", new { id = Model.IdPergunta }) |
-    @Html.ActionLink("Voltar", "Index")
-</p>
+<div>
+    <p>
+        <button class="btn" style="width:90px">@Html.ActionLink("Voltar", "Index")</button>
+        <button class="btn btn-warning pull-right" style="width:90px">@Html.ActionLink("Editar", "Edit", new { id = Model.IdPergunta })</button>
+
+    </p>
+</div>
 
 @*<script type="text/javascript">
     $("#tipoResposta").select2();

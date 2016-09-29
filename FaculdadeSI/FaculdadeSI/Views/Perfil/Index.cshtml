@@ -6,9 +6,8 @@
 
 <h2>Perfis</h2>
 
-<p>
-    @Html.ActionLink("Criar Perfil", "Create")
-</p>
+<div> <a class="btn btn-success pull-right" ui-sref="affiliate({ id: 'new' })" href="~/Perfil/Create"><i class="glyphicon glyphicon-plus"></i> <span>Novo perfil</span></a>  </div>
+
 <table class="table">
     <tr>
         <th>
@@ -28,11 +27,14 @@
         <td>
             @Html.DisplayFor(modelItem => item.PerfilStatus)
         </td>
+
         <td>
-            @Html.ActionLink("Editar", "Edit", new { id = item.IdPerfil }) |
-            @Html.ActionLink("Detalhes", "Details", new { id=item.IdPerfil }) 
-            @*@Html.ActionLink("Delete", "Delete", new { id=item.IdPerfil })*@
+            <div>
+                <button class="btn btn-warning pull-right" style="width:90px">@Html.ActionLink("Editar", "Edit", new { id = item.IdPerfil })</button>
+                <button class="btn btn-info pull-right" style="width:90px">@Html.ActionLink("Detalhes", "Details", new { id = item.IdPerfil })</button>
+            </div>
         </td>
+
     </tr>
 }
 

@@ -7,8 +7,8 @@
 <h2>Usuários</h2>
 
 <p>
-    @Html.ActionLink("Criar usuário", "Create")
-</p>
+    <div> <a class="btn btn-success pull-right" ui-sref="affiliate({ id: 'new' })" href="~/Usuario/Create"><i class="glyphicon glyphicon-plus"></i> <span>Novo usuário</span></a>  </div>
+ </p>
 <table class="table">
     <tr>
         <th>
@@ -56,9 +56,10 @@
             @Html.DisplayFor(modelItem => item.Perfil.DescricaoPerfil)
         </td>
         <td>
-            @Html.ActionLink("Editar", "Edit", new { id=item.IdUsuario }) 
-            @Html.ActionLink("Detalhes", "Details", new { id=item.IdUsuario }) 
-            @*@Html.ActionLink("Delete", "Delete", new { id=item.IdUsuario })*@
+            <div>
+                <button class="btn btn-warning pull-right" style="width:90px">@Html.ActionLink("Editar", "Edit", new { id = item.IdUsuario })</button>
+                <button class="btn btn-info pull-right" style="width:90px">@Html.ActionLink("Detalhes", "Details", new { id = item.IdUsuario })</button>
+            </div>
         </td>
     </tr>
 }
