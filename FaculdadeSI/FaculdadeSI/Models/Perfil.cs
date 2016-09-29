@@ -9,8 +9,10 @@
 
 namespace FaculdadeSI.Models
 {
-    using System;
-    using System.Collections.Generic;
+using System;
+using System.Collections.Generic;
+using System.Net;
+using System.Web.Mvc;
     
     public class Perfil
     {
@@ -29,5 +31,26 @@ namespace FaculdadeSI.Models
         public virtual ICollection<Avaliacao> Avaliacaos { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Usuario> Usuarios { get; set; }
+
+        private ReviewEntities db = new ReviewEntities();
+
+
+
+        public Perfil GetDetailsPerfil(int id)
+        {
+            //Perfil perfil = new Perfil();
+            if (id == null)
+            {
+                throw new KeyNotFoundException();
+            }
+            Perfil perfil = db.Perfils.Find(id);
+           
+            if (perfil == null)
+            {
+                throw new KeyNotFoundException();
+            }
+
+            return perfil;
+        }
     }
 }

@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using FaculdadeSI.Models;
+using FaculdadeSI.Models.Perfil;
 
 namespace FaculdadeSI.Controllers
 {
@@ -27,6 +28,9 @@ namespace FaculdadeSI.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+
+            //var t = Perfil.GetDeatailsPerfil(id);
+
             Perfil perfil = db.Perfils.Find(id);
             if (perfil == null)
             {
