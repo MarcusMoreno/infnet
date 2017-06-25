@@ -1,0 +1,4 @@
+C:\Users\Marcus\Documents\GitHub\Infnet\ProjetoGrupoPersistencia\Dominio\bin\Debug\Dominio.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\ProjetoGrupoPersistencia\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\ProjetoGrupoPersistencia\Dominio\obj\Debug\Dominio.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\ProjetoGrupoPersistencia\Dominio\obj\Debug\Dominio.pdb
