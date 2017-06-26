@@ -54,7 +54,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Servicos\AutoDeInfracaoServico.cs" />
     <Compile Include="Servicos\EnderecoServico.cs" />
-    <Compile Include="Servicos\FornecedorService.cs" />
+    <Compile Include="Servicos\FornecedorServico.cs" />
     <Compile Include="Servicos\Interfaces\IAutoDeInfracaoServico.cs" />
     <Compile Include="Servicos\Interfaces\IEnderecoServico.cs" />
     <Compile Include="Servicos\Interfaces\IFornecedorServico.cs" />
@@ -62,7 +62,7 @@
     <Compile Include="Servicos\Interfaces\IProdutoServico.cs" />
     <Compile Include="Servicos\Interfaces\IServico.cs" />
     <Compile Include="Servicos\ProcessoServico.cs" />
-    <Compile Include="Servicos\ProdutoService.cs" />
+    <Compile Include="Servicos\ProdutoServico.cs" />
     <Compile Include="Servicos\Servico.cs" />
   </ItemGroup>
   <ItemGroup />
