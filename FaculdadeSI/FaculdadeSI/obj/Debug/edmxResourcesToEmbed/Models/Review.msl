@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ReviewModelStoreContainer" CdmEntityContainer="ReviewEntities">
+    <EntitySetMapping Name="Avaliacaos">
+      <EntityTypeMapping TypeName="ReviewModel.Avaliacao">
+        <MappingFragment StoreEntitySet="Avaliacao">
+          <ScalarProperty Name="IdAvaliacao" ColumnName="IdAvaliacao" />
+          <ScalarProperty Name="DescricaoAvaliacao" ColumnName="DescricaoAvaliacao" />
+          <ScalarProperty Name="Expiracao" ColumnName="Expiracao" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="IdPerfil" ColumnName="IdPerfil" />
+          <ScalarProperty Name="AvaliacaoStatus" ColumnName="AvaliacaoStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AvaliacaoPerguntas">
+      <EntityTypeMapping TypeName="ReviewModel.AvaliacaoPergunta">
+        <MappingFragment StoreEntitySet="AvaliacaoPergunta">
+          <ScalarProperty Name="IdAvaliacaoPergunta" ColumnName="IdAvaliacaoPergunta" />
+          <ScalarProperty Name="IdAvaliacao" ColumnName="IdAvaliacao" />
+          <ScalarProperty Name="IdPergunta" ColumnName="IdPergunta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AvaliacaoRespostas">
+      <EntityTypeMapping TypeName="ReviewModel.AvaliacaoResposta">
+        <MappingFragment StoreEntitySet="AvaliacaoResposta">
+          <ScalarProperty Name="IdAvaliacaoResposta" ColumnName="IdAvaliacaoResposta" />
+          <ScalarProperty Name="IdAvaliacao" ColumnName="IdAvaliacao" />
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="IdPergunta" ColumnName="IdPergunta" />
+          <ScalarProperty Name="IdTipoResposta" ColumnName="IdTipoResposta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Perfils">
+      <EntityTypeMapping TypeName="ReviewModel.Perfil">
+        <MappingFragment StoreEntitySet="Perfil">
+          <ScalarProperty Name="IdPerfil" ColumnName="IdPerfil" />
+          <ScalarProperty Name="DescricaoPerfil" ColumnName="DescricaoPerfil" />
+          <ScalarProperty Name="PerfilStatus" ColumnName="PerfilStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Perguntas">
+      <EntityTypeMapping TypeName="ReviewModel.Pergunta">
+        <MappingFragment StoreEntitySet="Pergunta">
+          <ScalarProperty Name="IdPergunta" ColumnName="IdPergunta" />
+          <ScalarProperty Name="DescricaoPergunta" ColumnName="DescricaoPergunta" />
+          <ScalarProperty Name="PerguntaStatus" ColumnName="PerguntaStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PerguntaTipoRespostas">
+      <EntityTypeMapping TypeName="ReviewModel.PerguntaTipoResposta">
+        <MappingFragment StoreEntitySet="PerguntaTipoResposta">
+          <ScalarProperty Name="IdPerguntaTipoResposta" ColumnName="IdPerguntaTipoResposta" />
+          <ScalarProperty Name="IdPergunta" ColumnName="IdPergunta" />
+          <ScalarProperty Name="IdtipoResposta" ColumnName="IdtipoResposta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoRespostas">
+      <EntityTypeMapping TypeName="ReviewModel.TipoResposta">
+        <MappingFragment StoreEntitySet="TipoResposta">
+          <ScalarProperty Name="IdTipoResposta" ColumnName="IdTipoResposta" />
+          <ScalarProperty Name="DescricaoTipoResposta" ColumnName="DescricaoTipoResposta" />
+          <ScalarProperty Name="TipoRespostaStatus" ColumnName="TipoRespostaStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="ReviewModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+          <ScalarProperty Name="IdPerfil" ColumnName="IdPerfil" />
+          <ScalarProperty Name="UsuarioStatus" ColumnName="UsuarioStatus" />
+          <ScalarProperty Name="Senha" ColumnName="Senha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
