@@ -1,11 +1,11 @@
-﻿using Dominio.Interfaces;
-using Dominio.Servicos.Interfaces;
+﻿using Dominio.Servicos.Interfaces;
+using ProjetoIndividual.Dominio.Interfaces;
 
-namespace Dominio.Servicos
+namespace ProjetoIndividual.Dominio.Servicos
 {
     public class EnderecoServico : Servico<Endereco>, IEnderecoServico
     {
-        public EnderecoServico(IEnderecoRepositorio enderecoRepositorio) : base(enderecoRepositorio)
+        public EnderecoServico(IEnderecoRepository enderecoRepository) : base(enderecoRepository)
         {
                 
         }

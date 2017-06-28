@@ -1,9 +1,9 @@
-﻿using Dominio.Interfaces;
-using Dominio.Servicos.Interfaces;
+﻿using ProjetoIndividual.Dominio.Interfaces;
+using ProjetoIndividual.Dominio.Servicos.Interfaces;
 using System;
 using System.Collections.Generic;
 
-namespace Dominio.Servicos
+namespace ProjetoIndividual.Dominio.Servicos
 {
     public class Servico<TEntity> : IServico<TEntity> where TEntity : class
     {

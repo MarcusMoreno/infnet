@@ -1,4 +1,4 @@
-﻿namespace Dominio.Servicos.Interfaces
+﻿namespace ProjetoIndividual.Dominio.Servicos.Interfaces
 {
     public interface IProdutoServico : IServico<Produto>
     {

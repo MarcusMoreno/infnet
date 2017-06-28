@@ -1,12 +1,12 @@
-﻿using Dominio.Interfaces;
-using Dominio.Servicos.Interfaces;
+﻿using ProjetoIndividual.Dominio.Interfaces;
+using ProjetoIndividual.Dominio.Servicos.Interfaces;
 
-namespace Dominio.Servicos
+namespace ProjetoIndividual.Dominio.Servicos
 {
     public class ProdutoServico : Servico<Produto>, IProdutoServico
     {
 
-        public ProdutoServico(IProdutoRepositorio produtoRepositorio) : base(produtoRepositorio)
+        public ProdutoServico(IProdutoRepository produtoRepository) : base(produtoRepository)
         {
 
         }

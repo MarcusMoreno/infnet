@@ -1,11 +1,11 @@
-﻿using Dominio.Interfaces;
-using Dominio.Servicos.Interfaces;
+﻿using ProjetoIndividual.Dominio.Interfaces;
+using ProjetoIndividual.Dominio.Servicos.Interfaces;
 
-namespace Dominio.Servicos
+namespace ProjetoIndividual.Dominio.Servicos
 {
     public class ProcessoServico : Servico<Processo>, IProcessoServico
     {
-        public ProcessoServico(IProcessoRepositorio processoRepositorio) : base(processoRepositorio)
+        public ProcessoServico(IProcessoRepository processoRepository) : base(processoRepository)
         {
 
         }

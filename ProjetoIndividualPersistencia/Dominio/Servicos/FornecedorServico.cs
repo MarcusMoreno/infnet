@@ -1,14 +1,14 @@
-﻿using Dominio.Interfaces;
-using Dominio.Servicos.Interfaces;
+﻿using ProjetoIndividual.Dominio.Interfaces;
+using ProjetoIndividual.Dominio.Servicos.Interfaces;
 
-namespace Dominio.Servicos
+namespace ProjetoIndividual.Dominio.Servicos
 {
     public class FornecedorServico : Servico<Forncedor>, IFornecedorServico
     {
 
-        //private readonly IFornecedorRepositorio _fornecedorRepositorio;
+        //private readonly IFornecedorRepository _fornecedorRepository;
 
-        public FornecedorServico(IFornecedorRepositorio fornecedorRepositorio) : base(fornecedorRepositorio)
+        public FornecedorServico(IFornecedorRepository fornecedorRepository) : base(fornecedorRepository)
         {
 
         }

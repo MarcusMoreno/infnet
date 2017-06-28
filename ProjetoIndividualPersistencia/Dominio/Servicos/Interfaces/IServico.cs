@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dominio.Servicos.Interfaces
+namespace ProjetoIndividual.Dominio.Servicos.Interfaces
 {
     public interface IServico<TEntity> where TEntity : class
     {

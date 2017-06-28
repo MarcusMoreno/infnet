@@ -1,11 +1,11 @@
-﻿using Dominio.Interfaces;
-using Dominio.Servicos.Interfaces;
+﻿using Dominio.Servicos.Interfaces;
+using ProjetoIndividual.Dominio.Interfaces;
 
-namespace Dominio.Servicos
+namespace ProjetoIndividual.Dominio.Servicos
 {
     public class AutoDeInfracaoServico : Servico<AutoDeInfracao>, IAutoDeInfracaoServico
     {
-        public AutoDeInfracaoServico(IAutoDeInfracaoRepositorio autoDeInfracaoRepositorio) : base (autoDeInfracaoRepositorio)
+        public AutoDeInfracaoServico(IAutoDeInfracaoRepository autoDeInfracaoRepository) : base (autoDeInfracaoRepository)
         {
           
         }
