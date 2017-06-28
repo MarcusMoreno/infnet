@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoIndividual.Dominio.Servicos.Interfaces
+namespace ProjetoIndividual.Dominio.Interfaces.Service
 {
-    public interface IServico<TEntity> where TEntity : class
+    public interface IService<TEntity> where TEntity : class
     {
         void Add(TEntity obj);
         TEntity GetById(int id);

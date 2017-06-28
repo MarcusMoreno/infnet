@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoIndividual.Dominio.Interfaces
+namespace ProjetoIndividual.Dominio.Interfaces.Repository
 {
-    public interface IAutoDeInfracaoRepository : IRepository<AutoDeInfracao>
+    public interface IProcessoRepository : IRepository<Processo>
     {
     }
 }

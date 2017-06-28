@@ -1,15 +1,16 @@
 ﻿using ProjetoIndividual.Dominio.Interfaces;
-using ProjetoIndividual.Dominio.Servicos.Interfaces;
+using ProjetoIndividual.Dominio.Interfaces.Repository;
+using ProjetoIndividual.Dominio.Interfaces.Service;
 using System;
 using System.Collections.Generic;
 
-namespace ProjetoIndividual.Dominio.Servicos
+namespace ProjetoIndividual.Dominio.Services
 {
-    public class Servico<TEntity> : IServico<TEntity> where TEntity : class
+    public class Service<TEntity> : IService<TEntity> where TEntity : class
     {
         private readonly IRepository<TEntity> _repository;
 
-        public Servico(IRepository<TEntity> repository)
+        public Service(IRepository<TEntity> repository)
         {
             _repository = repository;
         }

@@ -1,4 +1,0 @@
-C:\Users\Marcus\Documents\GitHub\Infnet\ProjetoIndividualPersistencia\Dominio\bin\Debug\Dominio.dll
-C:\Users\Marcus\Documents\GitHub\Infnet\ProjetoIndividualPersistencia\Dominio\bin\Debug\Dominio.pdb
-C:\Users\Marcus\Documents\GitHub\Infnet\ProjetoIndividualPersistencia\Dominio\obj\Debug\Dominio.dll
-C:\Users\Marcus\Documents\GitHub\Infnet\ProjetoIndividualPersistencia\Dominio\obj\Debug\Dominio.pdb

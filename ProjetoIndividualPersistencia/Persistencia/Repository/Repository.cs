@@ -1,4 +1,5 @@
 ﻿using ProjetoIndividual.Dominio.Interfaces;
+using ProjetoIndividual.Dominio.Interfaces.Repository;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;

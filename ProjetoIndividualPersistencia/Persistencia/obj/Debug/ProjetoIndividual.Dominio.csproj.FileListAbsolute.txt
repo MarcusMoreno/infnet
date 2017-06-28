@@ -1,3 +1,0 @@
-C:\Users\Marcus\Documents\GitHub\Infnet\ProjetoIndividualPersistencia\Persistencia\obj\Debug\ProjetoIndividual.Dominio.csprojResolveAssemblyReference.cache
-C:\Users\Marcus\Documents\GitHub\Infnet\ProjetoIndividualPersistencia\Persistencia\obj\Debug\Persistencia.dll
-C:\Users\Marcus\Documents\GitHub\Infnet\ProjetoIndividualPersistencia\Persistencia\obj\Debug\Persistencia.pdb

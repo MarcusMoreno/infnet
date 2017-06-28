@@ -1,5 +1,5 @@
 ﻿using ProjetoIndividual.Dominio;
-using ProjetoIndividual.Dominio.Interfaces;
+using ProjetoIndividual.Dominio.Interfaces.Repository;
 using System.Data.Entity;
 
 namespace Persistencia.Repository
