@@ -8,7 +8,8 @@ namespace ProjetoIndividual.Persistencia.Configs
         public ProdutoConfig()
         {
             ToTable("Produto");
-            HasKey(a => a.Ean);
+            HasKey(a => a.Id);
+            HasRequired(x => x.Fornecedor);
 
 
 

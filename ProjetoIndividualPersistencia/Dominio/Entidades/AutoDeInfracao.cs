@@ -8,6 +8,8 @@ namespace ProjetoIndividual.Dominio
 {
     public class AutoDeInfracao
     {
+        public string Id { get; set; }
+
         public Processo Processo { get; set; }
 
         public int Gravidade { get; set; }

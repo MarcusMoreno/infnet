@@ -9,8 +9,9 @@ namespace ProjetoIndividual.Persistencia.Configs
         {
             ToTable("Processo");
 
-           
+            HasKey(x => x.Id);
 
+            HasRequired(x => x.Fornecedor);
 
 
 

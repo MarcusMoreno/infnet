@@ -10,9 +10,15 @@ namespace ProjetoIndividual.Persistencia.Context
 {
     public class PJContext : DbContext
     {
-        public PJContext() : base()
-        {
+        public DbSet<AutoDeInfracao> AutoDeInfracoes { get; set; }
+        public DbSet<Endereco> Enderecos { get; set; }
+        public DbSet<Forncedor> Forncedores { get; set; }
+        public DbSet<Processo> Processos { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
 
+        public PJContext() : base("ProjetoIndividual")
+        {
+            Configuration.LazyLoadingEnabled = false;
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -33,17 +39,7 @@ namespace ProjetoIndividual.Persistencia.Context
             modelBuilder.Configurations.Add(new FornecedorConfig());
             modelBuilder.Configurations.Add(new ProcessoConfig());
             modelBuilder.Configurations.Add(new ProdutoConfig());
-        }
-
-        public DbSet<AutoDeInfracao> AutoDeInfracoes { get; set; }
-
-        public DbSet<Endereco> Enderecos { get; set; }
-
-        public DbSet<Forncedor> Forncedores { get; set; }
-
-        public DbSet<Processo> Processos { get; set; }
-
-        public DbSet<Produto> Produtos { get; set; }
+        }      
 
     }
 }

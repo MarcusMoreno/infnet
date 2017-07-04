@@ -14,6 +14,8 @@ namespace ProjetoIndividual.Persistencia.Configs
         public AutoDeInfracaoConfig()
         {
             ToTable("AutoDeInfracao");
+            HasKey(x => x.Id);
+
         }
         
     }

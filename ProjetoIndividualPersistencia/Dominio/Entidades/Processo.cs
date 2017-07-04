@@ -8,6 +8,8 @@ namespace ProjetoIndividual.Dominio
 {
     public class Processo
     {
+        public string Id { get; set; }
+
         public Forncedor Fornecedor { get; set; }
 
         public StringBuilder RelatoFiscalizacao { get; set; }
@@ -15,5 +17,6 @@ namespace ProjetoIndividual.Dominio
         public DateTime Date { get; set; }
 
         public string FiscalResponsavel { get; set; }
+
     }
 }

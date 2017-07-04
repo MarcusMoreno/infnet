@@ -8,7 +8,9 @@ namespace ProjetoIndividual.Persistencia.Configs
         public EnderecoConfig()
         {
             ToTable("Endereco");
-            
+
+            HasRequired(x => x.Fornecedor);
+
         }
     }
 }
