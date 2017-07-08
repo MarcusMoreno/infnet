@@ -1,8 +1,7 @@
 ﻿using ProjetoIndividual.Dominio.Interfaces.Repository;
 using ProjetoIndividual.Dominio.Interfaces.Service;
-using ProjetoIndividual.Dominio.Services;
 
-namespace ProjetoIndividual.Dominio.Servicos
+namespace ProjetoIndividual.Dominio.Services
 {
     public class ProcessoService : Service<Processo>, IProcessoService
     {

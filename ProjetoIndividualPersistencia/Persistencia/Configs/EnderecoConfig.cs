@@ -8,8 +8,12 @@ namespace ProjetoIndividual.Persistencia.Configs
         public EnderecoConfig()
         {
             ToTable("Endereco");
-
-            HasRequired(x => x.Fornecedor);
+            HasKey(x => x.Id);
+           
+            //Relação 1:N -> Endereco PRECISA TER um Fornecedor e 1 Fornecedor pode ter N enderecos
+            HasRequired(a => a.Fornecedor)
+                .WithMany()
+                .Map(m => m.MapKey("FormcedorId"));
 
         }
     }

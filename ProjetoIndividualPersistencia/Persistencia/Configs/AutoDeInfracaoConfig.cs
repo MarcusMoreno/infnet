@@ -15,6 +15,7 @@ namespace ProjetoIndividual.Persistencia.Configs
         {
             ToTable("AutoDeInfracao");
             HasKey(x => x.Id);
+            HasRequired(x => x.Processo);
 
         }
         

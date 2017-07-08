@@ -8,10 +8,12 @@ namespace ProjetoIndividual.Persistencia.Configs
         public ProcessoConfig()
         {
             ToTable("Processo");
-
             HasKey(x => x.Id);
 
-            HasRequired(x => x.Fornecedor);
+            //Relação 1:N -> Processo PRECISA TER um Fornecedor e 1 Fornecedor pode ter N processos
+            HasRequired(a => a.Fornecedor)
+                .WithMany()
+                .Map(m => m.MapKey("FormcedorId"));
 
 
 

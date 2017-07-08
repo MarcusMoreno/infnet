@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoIndividual.Dominio.Interfaces.Repository
 {
-    public interface IFornecedorRepository : IRepository<Forncedor>
+    public interface IFornecedorRepository : IRepository<Fornecedor>
     {
     }
 }

@@ -1,5 +1,4 @@
-﻿using ProjetoIndividual.Dominio.Interfaces;
-using ProjetoIndividual.Dominio.Interfaces.Repository;
+﻿using ProjetoIndividual.Dominio.Interfaces.Repository;
 using ProjetoIndividual.Dominio.Interfaces.Service;
 
 namespace ProjetoIndividual.Dominio.Services

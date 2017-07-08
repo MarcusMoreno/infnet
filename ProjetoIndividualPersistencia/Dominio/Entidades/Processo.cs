@@ -8,15 +8,20 @@ namespace ProjetoIndividual.Dominio
 {
     public class Processo
     {
+        public Processo()
+        {
+            Fornecedor = new Fornecedor();
+        }
+
         public string Id { get; set; }
 
-        public Forncedor Fornecedor { get; set; }
+        public string RelatoFiscalizacao { get; set; }
 
-        public StringBuilder RelatoFiscalizacao { get; set; }
-
-        public DateTime Date { get; set; }
+        public DateTime DataRelato { get; set; }
 
         public string FiscalResponsavel { get; set; }
 
+        public virtual Fornecedor Fornecedor { get; set; }
+        
     }
 }

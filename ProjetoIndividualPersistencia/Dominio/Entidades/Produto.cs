@@ -8,6 +8,11 @@ namespace ProjetoIndividual.Dominio
 {
     public class Produto
     {
+        public Produto()
+        {
+            Fornecedor = new Fornecedor();
+        }
+
         public string Id { get; set; }
 
         public string Nome { get; set; }
@@ -16,6 +21,6 @@ namespace ProjetoIndividual.Dominio
 
         public string Estoque { get; set; }
 
-        public Forncedor Fornecedor { get; set; }
+        public virtual Fornecedor Fornecedor { get; set; }
     }
 }

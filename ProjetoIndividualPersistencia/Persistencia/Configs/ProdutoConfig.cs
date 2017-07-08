@@ -9,7 +9,11 @@ namespace ProjetoIndividual.Persistencia.Configs
         {
             ToTable("Produto");
             HasKey(a => a.Id);
-            HasRequired(x => x.Fornecedor);
+
+            //Relação 1:N -> Produto PRECISA TER um Fornecedor e 1 Fornecedor pode ter N produtos
+            HasRequired(a => a.Fornecedor)
+                .WithMany()
+                .Map(m => m.MapKey("FormcedorId"));
 
 
 

@@ -8,6 +8,11 @@ namespace ProjetoIndividual.Dominio
 {
     public class Endereco
     {
+        public Endereco()
+        {
+            Fornecedor = new Fornecedor();
+        }
+
         public string Id { get; set; }
 
         public string Logradouro { get; set; }
@@ -20,10 +25,10 @@ namespace ProjetoIndividual.Dominio
 
         public string Municipio { get; set; }
 
-        public Forncedor Fornecedor { get; set; }
-
         public string Cep { get; set; }
 
         public string Uf { get; set; }
+
+        public virtual Fornecedor Fornecedor { get; set; }
     }
 }

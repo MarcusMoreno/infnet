@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace ProjetoIndividual.Persistencia.Configs
 {
-    public class FornecedorConfig : EntityTypeConfiguration<Forncedor>
+    public class FornecedorConfig : EntityTypeConfiguration<Fornecedor>
     {
         public FornecedorConfig()
         {
