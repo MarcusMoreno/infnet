@@ -1,0 +1,12 @@
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\tests\ProjetoDDD.Domain.Tests\bin\Debug\ProjetoDDD.Domain.Tests.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\tests\ProjetoDDD.Domain.Tests\bin\Debug\ProjetoDDD.Domain.Tests.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\tests\ProjetoDDD.Domain.Tests\bin\Debug\DomainValidation.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\tests\ProjetoDDD.Domain.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\tests\ProjetoDDD.Domain.Tests\bin\Debug\ProjetoDDD.Domain.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\tests\ProjetoDDD.Domain.Tests\bin\Debug\Rhino.Mocks.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\tests\ProjetoDDD.Domain.Tests\bin\Debug\ProjetoDDD.Domain.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\tests\ProjetoDDD.Domain.Tests\bin\Debug\Rhino.Mocks.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\tests\ProjetoDDD.Domain.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\tests\ProjetoDDD.Domain.Tests\obj\Debug\ProjetoDDD.Domain.Tests.csprojResolveAssemblyReference.cache
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\tests\ProjetoDDD.Domain.Tests\obj\Debug\ProjetoDDD.Domain.Tests.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\tests\ProjetoDDD.Domain.Tests\obj\Debug\ProjetoDDD.Domain.Tests.pdb

@@ -1,0 +1,30 @@
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\System.Web.Mvc.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\System.Web.Mvc.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\obj\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\obj\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\obj\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.csprojResolveAssemblyReference.cache
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.pdb
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\System.Web.Mvc.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\System.Web.Mvc.xml
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\obj\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.csprojResolveAssemblyReference.cache
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\obj\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\obj\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.pdb
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.pdb
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\System.Web.Mvc.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\System.Web.Mvc.xml
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\obj\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.csprojResolveAssemblyReference.cache
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\obj\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\obj\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\System.Web.Mvc.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\System.Web.Mvc.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\obj\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.csprojResolveAssemblyReference.cache
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\obj\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.MvcFilters\obj\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.pdb

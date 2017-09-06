@@ -1,0 +1,86 @@
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Services.REST.ClienteAPI.dll.config
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Services.REST.ClienteAPI.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Services.REST.ClienteAPI.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\Newtonsoft.Json.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Application.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Domain.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Infra.CrossCutting.IoC.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\SimpleInjector.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\SimpleInjector.Extensions.ExecutionContextScoping.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\SimpleInjector.Integration.WebApi.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\System.Net.Http.Formatting.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\System.Web.Http.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\System.Web.Http.WebHost.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\WebActivator.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Infra.Data.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\DomainValidation.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Infra.CrossCutting.MvcFilters.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\AutoMapper.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\SimpleInjector.Integration.Web.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\EntityFramework.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\Dapper.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\System.Web.Mvc.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Application.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Domain.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Infra.CrossCutting.IoC.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\SimpleInjector.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\SimpleInjector.Extensions.ExecutionContextScoping.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\SimpleInjector.Integration.WebApi.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\Newtonsoft.Json.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\System.Net.Http.Formatting.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\System.Web.Http.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\System.Web.Http.WebHost.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Infra.Data.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Infra.CrossCutting.MvcFilters.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\AutoMapper.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\SimpleInjector.Integration.Web.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\EntityFramework.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\Dapper.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\Dapper.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\bin\System.Web.Mvc.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\obj\Debug\ProjetoDDD.Services.REST.ClienteAPI.csprojResolveAssemblyReference.cache
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\obj\Debug\ProjetoDDD.Services.REST.ClienteAPI.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Services.REST.ClienteAPI\obj\Debug\ProjetoDDD.Services.REST.ClienteAPI.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Services.REST.ClienteAPI.dll.config
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Services.REST.ClienteAPI.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Services.REST.ClienteAPI.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\Newtonsoft.Json.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Application.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Domain.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Infra.CrossCutting.IoC.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\SimpleInjector.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\SimpleInjector.Extensions.ExecutionContextScoping.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\SimpleInjector.Integration.WebApi.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\System.Web.Http.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\WebActivator.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Infra.Data.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\DomainValidation.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Infra.CrossCutting.MvcFilters.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\AutoMapper.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\SimpleInjector.Integration.Web.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\EntityFramework.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\System.Web.Mvc.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Application.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Domain.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Infra.CrossCutting.IoC.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\SimpleInjector.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\SimpleInjector.Extensions.ExecutionContextScoping.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\SimpleInjector.Integration.WebApi.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\Newtonsoft.Json.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\System.Web.Http.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Infra.Data.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Infra.Data.dll.config
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\ProjetoDDD.Infra.CrossCutting.MvcFilters.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\AutoMapper.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\SimpleInjector.Integration.Web.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\EntityFramework.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\bin\System.Web.Mvc.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\obj\Debug\ProjetoDDD.Services.REST.ClienteAPI.csprojResolveAssemblyReference.cache
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\obj\Debug\ProjetoDDD.Services.REST.ClienteAPI.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Services.REST.ClienteAPI\obj\Debug\ProjetoDDD.Services.REST.ClienteAPI.pdb

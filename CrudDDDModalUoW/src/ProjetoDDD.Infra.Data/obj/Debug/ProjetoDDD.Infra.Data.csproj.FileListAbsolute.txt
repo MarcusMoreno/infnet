@@ -1,0 +1,64 @@
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Infra.Data.dll.config
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Infra.Data.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Infra.Data.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\Dapper.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\DomainValidation.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\EntityFramework.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Domain.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Domain.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\Dapper.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\Dapper.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\EntityFramework.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.Data\obj\Debug\ProjetoDDD.Infra.Data.csprojResolveAssemblyReference.cache
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.Data\obj\Debug\ProjetoDDD.Infra.Data.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.Data\obj\Debug\ProjetoDDD.Infra.Data.pdb
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Infra.Data.dll.config
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Infra.Data.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Infra.Data.pdb
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\Dapper.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\DomainValidation.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\EntityFramework.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Domain.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Domain.pdb
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\Dapper.pdb
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\Dapper.xml
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\EntityFramework.xml
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.Data\obj\Debug\ProjetoDDD.Infra.Data.csprojResolveAssemblyReference.cache
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.Data\obj\Debug\ProjetoDDD.Infra.Data.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.Data\obj\Debug\ProjetoDDD.Infra.Data.pdb
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Infra.Data.dll.config
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Infra.Data.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Infra.Data.pdb
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\Dapper.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\DomainValidation.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Domain.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Domain.pdb
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\Dapper.pdb
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\Dapper.xml
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\obj\Debug\ProjetoDDD.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\obj\Debug\ProjetoDDD.Infra.Data.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\obj\Debug\ProjetoDDD.Infra.Data.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\obj\Debug\ProjetoDDD.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\obj\Debug\ProjetoDDD.Infra.Data.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\obj\Debug\ProjetoDDD.Infra.Data.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Infra.Data.dll.config
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Infra.Data.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Infra.Data.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\Dapper.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\DomainValidation.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Domain.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\ProjetoDDD.Domain.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\Dapper.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\Dapper.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,0 +1,108 @@
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.CrossCutting.IoC.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.CrossCutting.IoC.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\EntityFramework.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Application.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Domain.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.Data.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.Integration.Web.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\DomainValidation.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\AutoMapper.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\Dapper.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\System.Web.Mvc.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Application.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Domain.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.Data.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\EntityFramework.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.Integration.Web.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\AutoMapper.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\Dapper.pdb
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\Dapper.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\System.Web.Mvc.xml
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\obj\Debug\ProjetoDDD.Infra.CrossCutting.IoC.csprojResolveAssemblyReference.cache
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\obj\Debug\ProjetoDDD.Infra.CrossCutting.IoC.dll
+D:\Dropbox\Arquitetura .NET EP\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\obj\Debug\ProjetoDDD.Infra.CrossCutting.IoC.pdb
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.CrossCutting.IoC.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.CrossCutting.IoC.pdb
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\EntityFramework.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Application.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Domain.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.Data.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.Integration.Web.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\DomainValidation.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\AutoMapper.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\Dapper.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\System.Web.Mvc.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Application.pdb
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Domain.pdb
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.Data.pdb
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\EntityFramework.xml
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.xml
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.Integration.Web.xml
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.pdb
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\AutoMapper.xml
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\Dapper.pdb
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\Dapper.xml
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\System.Web.Mvc.xml
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\obj\Debug\ProjetoDDD.Infra.CrossCutting.IoC.csprojResolveAssemblyReference.cache
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\obj\Debug\ProjetoDDD.Infra.CrossCutting.IoC.dll
+D:\Dropbox\Infnet\Pós-Graduação\Pós .NET\03. Aplicações Web com ASP.NET\Aula 04\CrudDDDModal\src\ProjetoDDD.Infra.CrossCutting.IoC\obj\Debug\ProjetoDDD.Infra.CrossCutting.IoC.pdb
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.CrossCutting.IoC.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.CrossCutting.IoC.pdb
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\EntityFramework.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Application.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Domain.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.Data.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.Integration.Web.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\DomainValidation.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\AutoMapper.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\Dapper.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\System.Web.Mvc.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Application.pdb
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Domain.pdb
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.Data.pdb
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\EntityFramework.xml
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.xml
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.Integration.Web.xml
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.pdb
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\AutoMapper.xml
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\Dapper.pdb
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\Dapper.xml
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\System.Web.Mvc.xml
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\obj\Debug\ProjetoDDD.Infra.CrossCutting.IoC.csprojResolveAssemblyReference.cache
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\obj\Debug\ProjetoDDD.Infra.CrossCutting.IoC.dll
+C:\Users\carlo\Downloads\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\obj\Debug\ProjetoDDD.Infra.CrossCutting.IoC.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\obj\Debug\ProjetoDDD.Infra.CrossCutting.IoC.csprojResolveAssemblyReference.cache
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\obj\Debug\ProjetoDDD.Infra.CrossCutting.IoC.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\obj\Debug\ProjetoDDD.Infra.CrossCutting.IoC.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.CrossCutting.IoC.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.CrossCutting.IoC.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\EntityFramework.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Application.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Domain.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.Data.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.Integration.Web.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\DomainValidation.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\AutoMapper.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\System.Web.Mvc.dll
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Application.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Domain.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.Data.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.Data.dll.config
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\EntityFramework.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.Integration.Web.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\ProjetoDDD.Infra.CrossCutting.MvcFilters.pdb
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\AutoMapper.xml
+C:\Users\Marcus\Documents\GitHub\Infnet\CrudDDDModalUoW\src\ProjetoDDD.Infra.CrossCutting.IoC\bin\Debug\System.Web.Mvc.xml
